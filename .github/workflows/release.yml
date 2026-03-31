@@ -32,7 +32,7 @@ jobs:
         run: pnpm install --frozen-lockfile=false --ignore-scripts
 
       - name: Import secrets from Infisical (OIDC Machine Identity)
-        uses: Infisical/secrets-action@v1.0.9
+        uses: Infisical/secrets-action@v1.0.12
         with:
           method: "oidc"
           identity-id: "436a2630-fad8-475b-8f00-5ab158e9919e"
