@@ -38,6 +38,7 @@ jobs:
           identity-id: "436a2630-fad8-475b-8f00-5ab158e9919e"
           project-slug: "project-nd-zj"
           env-slug: "dev"
+          secret-path: "/n8n-nodes-steel/credentials"
 
       - name: Validate imported npm token
         run: |
